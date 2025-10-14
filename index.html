@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valmai Imtiyaz</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>   
+  
+  <body>
+    <nav>
+      <div class="wrapper">
+        <div class="logo"><h2 class ="unbounded1">Valmai</h2></div>
+        <button class="burger-menu" id="burger">&#9776; </button>
+      </div>
+      <div class="mobile-menu-container" id="mobileMenu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#materi">Meet HTML, CSS, JavaScript, and Tailwind</a></li>
+            <li><a href="#tatacara">Steps to Create a Website</a></li>
+            <li><a href="#kesanpesan">My Experience with Web Development</a></li>
+
+            <li><a href="#jadwal">Schedule</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+      <!--home-->
+      <section id="home" class="home">
+        <div class="homebox">
+          <div class="hometext">
+            <h2 class="unbounded">Hey There!</h2>
+            <p>I'm Valmai</p>
+            <a href="#about" class="homebtn">More About Me</a>
+          </div>
+          <div class="homeimg">
+            <img src="foto pemweb.png" alt="img" class="img">
+            <img src="star1.svg" alt="img" class="star1">
+            <img src="star2.svg" alt="img" class="star2">
+          </div>
+        </div>
+      </section> 
+      
+      <!--about-->
+      <section id="about" class="about">
+        <div class="aboutbox">
+          <div class="abouttext">
+            <h2 class="judul">About Me</h2>
+            <div class="deskripsi1">
+            <p>Halo semuanya!
+            Perkenalkan nama saya Valmai Imtiyaz,
+            biasa dipanggil Valmai atau tiyaz. 
+            Saya adalah seorang mahasiswa Ilmu Komputer USU
+            dengan NIM 241401135, di kelas kom c. Sejak awal kuliah, saya memiliki ketertarikan besar pada dunia UI/UX design. Menurut saya, teknologi lebih dari sekadar coding. Yang penting adalah bagaimana hasilnya bisa berguna dan memudahkan orang.
+            </p>
+            <p class="deskripsi2">
+            Di waktu luang, saya mendengarkan musik, merajut, dan menonton series atau film. 
+            Saya memiliki motto hidup “Kemarin sudah berlalu, besok belum datang, hari ini belum pasti”, 
+            ini mengingatkan saya untuk tetap fokus pada proses belajar dan berkembang, tanpa terlalu terbebani 
+            masa lalu maupun cemas dengan masa depan.
+            </p>
+            </div>
+          </div>
+          <div class="aboutimg">
+            <div class="aboutgelap"></div>
+          </div>
+        </div>
+      </section>
+
+      <!--jadwal-->
+      <section id="jadwal">
+          <div class="jadwalcontainer">
+              <h2 class="jadwaltitle">Schedule</h2>
+
+              <div class="tablewrapper">
+                  <table class="jadwaltable">
+                      <thead>
+                          <tr>
+                              <th>Hari</th>
+                              <th>Mata Kuliah</th>
+                              <th>Jam</th>
+                              <th>Ruang</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td datalabel="Hari">Senin</td>
+                              <td datalabel="Mata Kuliah">Basic English Grammar<br>Sastra dan Perfilman</td>
+                              <td datalabel="Jam">08:00 - 09:40<br>10:30 - 12:10</td>
+                              <td datalabel="Ruang">I.103<br>O.103</td>
+                          </tr>
+                          <tr>
+                              <td datalabel="Hari">Selasa</td>
+                              <td datalabel="Mata Kuliah">Lab Struktur Data<br>Pemrograman Web</td>
+                              <td datalabel="Jam">12:10 - 13:50<br>13:50 - 15:30</td>
+                              <td datalabel="Ruang">Lab 2<br>Lab 3</td>
+                          </tr>
+                          <tr>
+                              <td datalabel="Hari">Rabu</td>
+                              <td datalabel="Mata Kuliah">Struktur Data<br>Kecerdasan Buatan<br>Pemrograman Web</td>
+                              <td datalabel="Jam">08:00 - 10:30<br>10:30 - 13:00<br>14:40 - 17:00</td>
+                              <td datalabel="Ruang">D-104<br>D-105<br>D-102</td>
+                          </tr>
+                          <tr>
+                              <td datalabel="Hari">Kamis</td>
+                              <td datalabel="Mata Kuliah">-</td>
+                              <td datalabel="Jam">-</td>
+                              <td datalabel="Ruang">-</td>
+                          </tr>
+                          <tr>
+                              <td datalabel="Hari">Jum'at</td>
+                              <td datalabel="Mata Kuliah">Basis Data<br>Wirausaha Digital<br>Lab Basis Data</td>
+                              <td datalabel="Jam">08:00 - 10:30<br>10:30 - 12:10<br>14:40 - 16:20</td>
+                              <td datalabel="Ruang">D-101<br>D-105<br>Lab 3</td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+          </div>
+      </section>
+
+      <!--materi-->
+      <section id="materi" class="materi">
+        <div class="materitext">
+          <h2 class="judul1"> Meet HTML, CSS, JavaScript, and Tailwind </h2>
+          <p class="judul2">Pengembangan website modern dibangun di atas tiga pilar utama. HTML sebagai struktur, CSS sebagai tampilan, dan Javascript sebagai interaksi. Ditambah dengan Tailwind CSS, proses styling menjadi lebih cepat dan efisien. Berikut adalah peran masing-masing :</p>
+
+        <div class="matericontainer">
+          <div class="matericard">
+            <h3 class="subjudul">HTML (HyperText Markup Language)</h3>
+            <p>HTML atau Hypertext Markup Language adalah bahasa pemrograman pertama yang harus dipahami oleh setiap pengembang web. HTML merupakan tulang punggung dari semua halaman web yang kita lihat. Ini adalah bahasa yang digunakan untuk membangun struktur dasar halaman web, mengatur elemen-elemen, dan menghubungkan mereka satu sama lain. HTML bekerja dengan menggunakan tag (penanda) yang diletakkan di dalam tanda '<' dan '>'.Tugas utamanya adalah memberi struktur pada konten. HTML mendefinisikan elemen-elemen seperti judul, paragraf, gambar, dan link yang dilihat pengguna.</p><br>
+            <p><strong>Analoginya :</strong> HTML adalah kerangka manusia seperti tulang/ tengkorak yang menentukan tata letak dasar.</p>
+          </div>
+        
+          <div class="matericard">
+            <h3 class="subjudul">CSS (Cascading Style Sheets)</h3>
+            <p>CSS, atau Cascading Style Sheets, adalah bahasa yang digunakan untuk mengatur tampilan atau gaya suatu halaman web yang telah dibangun menggunakan HTML. Dengan CSS, pengembang dapat mengontrol warna, ukuran, tata letak, dan elemen visual lainnya pada halaman. Jika HTML bertanggung jawab atas struktur, maka CSS atau Cascading Style Sheets bertanggung jawab atas tampilan visual dari halaman web. Dengan CSS, Anda dapat mengendalikan segala aspek dari warna, jenis font, tata letak, hingga efek transisi pada elemen-elemen yang ada dalam halaman web. Keuntungan utama dari penggunaan CSS adalah kemampuannya untuk memisahkan tampilan dari struktur, yang memungkinkan perubahan tampilan yang konsisten tanpa harus merubah kode HTML.</p><br>
+
+            <p><strong>Analogi :</strong> CSS adalah kulit yang melapisi tengkorak/ tulang, pakaian, ataupun riasan pada manusia</p>
+          </div>
+        
+          <div class="matericard">
+            <h3 class="subjudul">Javascript (JS)</h3>
+            <p>JavaScript adalah bahasa pemrograman yang digunakan untuk memberikan interaktivitas pada halaman web. Dengan JavaScript, kamu dapat mengontrol perilaku halaman, mengambil dan memanipulasi data, serta merespons interaksi pengguna. Ketika tiba pada interaktivitas dan fungsionalitas dinamis, JavaScript adalah bahasa pemrograman yang menjadi pilihan utama. JavaScript memberikan kemampuan kepada pengembang web untuk membuat efek animasi, validasi formulir, dan merespons tindakan pengguna secara real-time. Bahkan, halaman web yang penuh dengan interaksi seperti Google Maps atau platform media sosial, sangat mengandalkan JavaScript.</p>
+
+            <p>Bahasa pemrograman ini memungkinkan kamu mengontrol perilaku elemen-elemen di halaman web secara dinamis. Kamu bisa mengubah isi elemen, menambahkan atau menghapus elemen, dan bahkan mengambil data dari server tanpa harus melakukan pembaruan halaman. Ini semua bisa terjadi karena JavaScript dijalankan di sisi klien (di browser pengguna). Misalnya, kamu dapat menggunakan JavaScript untuk membuat kotak pesan muncul saat pengguna mengklik tombol, atau mengubah tampilan gambar saat pengguna meletakkan kursor di atasnya. Dalam beberapa kasus, JavaScript juga digunakan untuk berkomunikasi dengan server dan memperbarui data pada halaman tanpa perlu me-reload seluruh halaman.</p><br>
+
+             <p><strong>Analogi :</strong> Javascript adalah otak dan sistem saraf pada manusia</p>
+          </div>
+        
+          <div class="matericard">
+            <h3 class="subjudul">Tailwind CSS (Framework)</h3>
+            <p>Tailwind adalah sebuah utility-first CSS framework yang memungkinkan pengembang untuk membangun desain yang kompleks dengan mudah. Tidak seperti framework CSS lainnya yang menyediakan komponen siap pakai, Tailwind memberikan utility classes yang dapat digunakan untuk menyesuaikan tampilan elemen HTML dengan cepat.</p>
+
+            <p>Tailwind menawarkan banyak keuntungan yang membuatnya populer di kalangan pengembang web. Pertama, Tailwind sangat fleksibel. Anda bisa mengatur setiap detail dari elemen user interface (UI) tanpa harus menulis CSS custom. Kedua, Tailwind mempercepat proses pengembangan karena Anda tidak perlu keluar dari HTML untuk menulis style. Ketiga, Tailwind memungkinkan penggunaan desain konsisten di seluruh proyek karena semua style diatur melalui utility classes.</p><br>
+
+
+            <p><strong>Kelebihan:</strong> Pengembangan sangat cepat, mengutamakan konsistensi, dan menghasilkan kode CSS yang lebih ramping (jika dikonfigurasi dengan baik).</p>
+          </div>
+        
+
+        <div class="videocontainer">
+          <h3 class="subjudul1">Mengenal Lebih Jauh HTML, CSS dan JS</h3>
+          <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/QS4fE33EHRk" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;    web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="videocontainer">
+          <h3 class="subjudul1">Mengenal Lebih Jauh Tailwind CSS</h3>
+          <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/4B9XYXCBYkA" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+          </iframe>
+        </div>
+        </div>
+      </section>
+
+      <!--tatacara-->
+      <section id="tatacara">
+          <div class="container">
+              <h2 class="sectiontitle">Steps to Create a Website</h2>
+
+              <div class="notepad-container">
+                  
+                  <div class="step-item">
+                      <div class="step-check">1</div>
+                      <div class="step-content">
+                          <h3><i class="fas fa-pencil-alt"></i> Design untuk User Interface (UI/UX)</h3>
+                          <p>Tentukan tujuan website dengan cara membuat design ui nya terlebih dahulu. Kamu bisa menggunakan figma untuk membangun design awal website ataupun design melalui platform lain</p>
+                      </div>
+                  </div>
+
+                  <div class="step-item">
+                      <div class="step-check">2</div>
+                      <div class="step-content">
+                          <h3><i class="fas fa-tools"></i> Menyiapkan Peralatan Coding</h3>
+                          <p>Siapkan platform untuk text editor (seperti VS Code) untuk menulis code seperti html, css, dan javascript dan Web Browser (seperti Chrome) untuk melihat hasilnya.</p>
+                      </div>
+                  </div>
+
+                  <div class="step-item">
+                      <div class="step-check">3</div>
+                      <div class="step-content">
+                          <h3><i class="fab fa-html5"></i> Membangun Struktur dengan HTML</h3>
+                          <p>Buat file `index.html`. Mulailah dengan membangun HTML menggunakan tag-tag HTML dengan judul, paragraf, dan gambar untuk membentuk struktur halaman.</p>
+                      </div>
+                  </div>
+
+                  <div class="step-item">
+                      <div class="step-check">4</div>
+                      <div class="step-content">
+                          <h3><i class="fab fa-css3-alt"></i> Menerapkan Gaya dengan CSS</h3>
+                          <p>Selanjutnya, buatlah file `style.css` untuk menghias kerangka tersebut menggunakan CSS. Atur warna, font, dan tata letak agar terlihat lebih indah.</p>
+                      </div>
+                  </div>
+
+                  <div class="step-item">
+                      <div class="step-check">5</div>
+                      <div class="step-content">
+                          <h3><i class="fab fa-js-square"></i> Menambah Interaktivitas dengan JavaScript</h3>
+                          <p>Buat file `script.js` untuk menambahkan fitur interaktif, seperti tombol yang bisa diklik atau animasi yang bergerak.</p>
+                      </div>
+                  </div>
+                  
+                  <div class="step-item">
+                      <div class="step-check">6</div>
+                      <div class="step-content">
+                          <h3><i class="fas fa-rocket"></i> Mempublikasikan ke Web</h3>
+                          <p>Unggah semua file-mu ke layanan hosting (seperti vercel) agar website bisa diakses oleh semua orang..</p>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+      </section>
+
+      <!--kesanpesan-->
+      <section id="kesanpesan">
+          <div class="container">
+              <h2 class="sectiontitle">My Experience with Web Development</h2>
+
+              <div class="chat-container">
+
+                  <div class="chat-bubble-wrapper received">
+                      <div class="chat-bubble">
+                          <h4><i class="fas fa-comment-dots"></i>What I've Learned So Far</h4>
+                          <p>Kesan pertama saya dalam membuat web ini adalah takut dan bingung. Takut adanya eror juga kesulitan dalam membangun dan menyusun codingan menjadi suatu web yang utuh dan juga enak di pandang. Tetapi saat dijalani, membuat web tidak semenakutkan itu ketika berhasil membangunnya. Ada kesenangan tersendiri dalam menyelesaikan web tersebut. </p>
+                      </div>
+                  </div>
+
+                  <div class="chat-bubble-wrapper sent">
+                      <div class="chat-bubble">
+                          <h4><i class="fas fa-paper-plane"></i>A Message to Future Coders</h4>
+                          <p> Gapapa kalo bingung saat belajar dalam membuat web. Tidak ada yang bisa langsung paham. Pasti ada hari dimana kita merasa tidak belajar apa-apa. Itu adalah  hal yang wajar. Rahasianya adalah tetap belajar untuk konsisten, walaupun hanya 15 menit. Konsistensi itu jauh lebih baik daripada beberapa malam begadang.</p>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+      </section>
+
+      <!--contact-->
+      <section id="contact" class="contact">
+        <div class="contactbox">
+          <div class="contacttext"><h2>Contact Me</h2>
+              <div class="sosmed">
+                <a href="https://www.instagram.com/vlmtyz/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/valmaiimtiyaz"><i class="fa-brands fa-github"></i></a>
+              </div>
+      </section>
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
