@@ -260,7 +260,6 @@ margin-left: 60px;
     width: 350px; 
     height: auto; 
     border-radius: 50%; 
-    border: 5px solid #697565;
     filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.5));
     animation: float 4s ease-in-out infinite;
 }
@@ -1008,3 +1007,4 @@ margin-left: 60px;
     }
 
 }
+
