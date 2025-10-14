@@ -299,25 +299,25 @@ margin-left: 60px;
   padding-top: 95px;
 }
 .aboutbox {
-  text-align: center;
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: 100vh;       
-  margin: 0;           
-  padding: 0px;
-  justify-content: space-between; 
-  overflow: hidden;
-  top: -100px;
-  z-index: 0px;
-  padding: 60px 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    width: 100%;
+    height: auto; 
+    margin: 0 auto; 
+    padding: 60px 100px;
+    top: -50px; 
+    z-index: 0;
 }
 .abouttext{
-  position: relative;
-  z-index: 10;
-  left: 80px;
-  top: 180px;
+    position: relative; 
+    z-index: 10;
+    left: 0; 
+    top: 100px;
+    text-align: center; 
+    margin: 0 auto;
+
 }
 .abouttext h2 {
   z-index: 5;
@@ -434,9 +434,9 @@ margin-left: 60px;
     gap: 0.75rem; 
 }
 .videocontainer .subjudul1 {
-    font-family: var(--font-body);
+    font-family: var(--font-heading);
     color: var(--secondary-accent);
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.2rem;
     margin-bottom: 1rem;
     display: flex; 
@@ -540,7 +540,6 @@ margin-left: 60px;
 }
 
 
-
 /*contact*/
 #contact{
   text-align: center;
@@ -625,7 +624,6 @@ margin-left: 60px;
     padding: 1.5rem 0;
     border-bottom: 2px dashed #e9d8a6;
     transition: background-color 0.3s ease;
-  
     opacity: 0;
     transform: translateX(-30px);
     transition: all 0.5s ease-out;
@@ -782,7 +780,6 @@ margin-left: 60px;
       left: 50%;
       transform: translateX(-50%);
       width: 90%;
-
       background: rgba(60, 61, 55, 0.45);
       backdrop-filter: blur(5px);
       -webkit-backdrop-filter: blur(12px);
@@ -850,7 +847,7 @@ margin-left: 60px;
     .homebtn:hover {
     background-color: #e1cdaf; 
     transform: scale(1.05);
-}
+    }
     .img, .star1, .star2 {
         position: static;
         max-width: 80%;
@@ -945,10 +942,10 @@ margin-left: 60px;
         font-size: 12px;
     }
     .videocontainer .subjudul1{
-        font-size: 1.1rem;
+        font-size: 13px;
     }
     .videocontainer .subjudul2{
-        font-size: 1.3rem;
+        font-size: 18px;
     }
   
     /*tatacara*/
@@ -963,7 +960,7 @@ margin-left: 60px;
         width: 90%;
     }
     .step-content h3{
-        font-size: 15px;
+        font-size: 10px;
     }
     .step-content p{
         font-size: 12px;
@@ -990,7 +987,7 @@ margin-left: 60px;
         gap: 1rem;
     }
     .step-content h3 {
-        font-size: 1.1rem;
+        font-size: 15px;
     }
     .chat-container{
         margin-top: -20px;
