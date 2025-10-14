@@ -793,7 +793,9 @@ margin-left: 60px;
       padding: 10px 0;
       z-index: -1;
     }
-
+    .mobile-menu-container ul li a {
+        font-size: 0.8rem;
+    }
     /* --- Bagian Home --- */
     .homebox {
         display: flex;
@@ -872,60 +874,60 @@ margin-left: 60px;
 
     .abouttext {
         left: 0;
-        top: 0;
+        top: -180px;
         margin-bottom: -100px;
     }
     .abouttext h2 {
-        font-size: 40px; 
+        font-size: 20px; 
         text-align: center;
-        padding-top: 20px;
+        padding-top: 90px;
     }
     
     .abouttext .judul {
-        font-size: 30px;
+        font-size: 20px;
         text-align: center;
-        margin-top: 0;
+        margin-top: 90px;
+        margin-bottom: -50px;
         left: 0;
     }
-    
-    .deskripsi1 {
-        width: 100%;
-        max-width: 100%;
-        padding: 0 10px;
-        margin-top: -40px;
-    }
     .deskripsi1 p {
+        margin-top: -80px;
+        font-size: 12px;
         margin: 20px 0;
+        margin-bottom: -0px;
     }
-
     .deskripsi2 {
         margin-top: 20px; 
     }
     
     /*jadwal*/
     #jadwal{
-      margin-top: -150px;
+      margin-top: -180px;
     }
     .jadwaltitle{
-        font-size: 2rem; 
+        font-size: 20px; 
         text-align: center;
-        padding-top: 20px;
+        margin-top: -100px;
     }
     .jadwaltable{
-        margin-top: -30px;
+        margin-top: -50px;
     }
     .jadwaltable td{
-    font-size: 9px;
+    font-size: 10px;
+    }
+    .jadwaltable th{
+    font-size: 12px;
     }
 
     /*materi*/
     .judul1{
-        font-size: 1.5rem; 
+        font-size: 20px; 
         text-align: center;
         padding: 20px 30px 0 30px;
     }
     .judul2{
         padding: 20px 28px 0 28px;
+        font-size: 11.5px;
     }
     .matericontainer{
         margin: 0 auto;
@@ -936,6 +938,12 @@ margin-left: 60px;
       max-width: unset; 
       margin: 0 auto;
     }
+    .matericard .subjudul{
+        font-size: 15px;
+    }
+    .matericard p{
+        font-size: 12px;
+    }
     .videocontainer .subjudul1{
         font-size: 1.1rem;
     }
@@ -945,7 +953,7 @@ margin-left: 60px;
   
     /*tatacara*/
     .sectiontitle{
-        font-size: 1.5rem; 
+        font-size: 20px; 
         text-align: center;
         padding: 20px 30px 0 30px;
     }
@@ -958,12 +966,12 @@ margin-left: 60px;
         font-size: 15px;
     }
     .step-content p{
-        font-size: 15px;
+        font-size: 12px;
     }
 
     /*kesanpesan*/
     #kesanpesan .sectiontitle {
-        font-size: 1.4rem; 
+        font-size: 20px; 
         text-align: center;
         padding: 20px 30px 0 30px;
         margin-top: -100px;
@@ -987,7 +995,12 @@ margin-left: 60px;
     .chat-container{
         margin-top: -20px;
         padding: 0 28px 0 28px;
- 
+    }
+    .chat-bubble h4 {
+        font-size: 15px;
+    }
+    .chat-bubble p {
+        font-size: 12px;
     }
 
     /* --- Bagian Contact --- */
@@ -1005,6 +1018,4 @@ margin-left: 60px;
     .sosmed {
         margin-top: 0;
     }
-
 }
-
