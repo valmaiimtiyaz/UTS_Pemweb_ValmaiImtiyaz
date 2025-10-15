@@ -844,38 +844,6 @@ margin-left: 60px;
         margin-left: 15px;
         margin-right: 0;
     }
-  
-    .homebox {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center; /* Pusatkan teks untuk tampilan mobile */
-        gap: 2rem;
-        width: 95%;
-        padding: 40px 20px;
-        margin-top: 20px;
-        min-height: 80vh;
-        height: auto;
-    }
-
-    .hometext {
-        order: 2; /* Tampilkan teks terlebih dahulu */
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .homeimg {
-        order: 1; /* Tampilkan gambar setelah teks */
-        width: 70%;
-        margin-top: 0; /* HAPUS MARGIN NEGATIF */
-    }
-
-    .homeimg .img {
-        max-width: 100%;
-        width: 250px; /* Sesuaikan ukuran gambar jika perlu */
-    }
-    
     .hometext h2,  
     .hometext p,  
     .homebtn {
@@ -1056,6 +1024,7 @@ margin-left: 60px;
         margin-top: 0;
     }
 }
+
 
 
 
