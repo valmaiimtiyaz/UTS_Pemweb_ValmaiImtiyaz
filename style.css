@@ -814,6 +814,7 @@ margin-left: 60px;
         width: 70%;
         z-index: 2;
         margin-top: -890px;
+        pointer-events: none;
     }
     .homeimg img{
         margin-top: -190px;
@@ -1012,6 +1013,7 @@ margin-left: 60px;
         margin-top: 0;
     }
 }
+
 
 
 
