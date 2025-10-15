@@ -859,14 +859,14 @@ margin-left: 60px;
     }
 
     .hometext {
-        order: 1; /* Tampilkan teks terlebih dahulu */
+        order: 2; /* Tampilkan teks terlebih dahulu */
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     .homeimg {
-        order: 2; /* Tampilkan gambar setelah teks */
+        order: 1; /* Tampilkan gambar setelah teks */
         width: 70%;
         margin-top: 0; /* HAPUS MARGIN NEGATIF */
     }
@@ -882,17 +882,6 @@ margin-left: 60px;
         position: static;  
         margin: 0; /* Reset margin */
     }
-
-    .hometext h2 {
-      font-size: 2.5rem;  
-      margin-bottom: 0.5rem; /* Beri sedikit jarak */
-    }
-
-    .hometext p {
-      font-size: 1.1rem;
-      margin-bottom: 1.5rem; /* Beri jarak ke tombol */
-    }
-
     .homebtn {
         padding: 10px 30px;
         font-size: 1rem;
@@ -1067,5 +1056,6 @@ margin-left: 60px;
         margin-top: 0;
     }
 }
+
 
 
