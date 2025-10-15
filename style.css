@@ -844,18 +844,6 @@ margin-left: 60px;
         margin-left: 15px;
         margin-right: 0;
     }
-    .hometext h2,  
-    .hometext p,  
-    .homebtn {
-        position: static;  
-        margin: 0; /* Reset margin */
-    }
-    .homebtn {
-        padding: 10px 30px;
-        font-size: 1rem;
-    }
-    
-  
     .img, .star1, .star2 {
         position: static;
         max-width: 80%;
@@ -1024,6 +1012,7 @@ margin-left: 60px;
         margin-top: 0;
     }
 }
+
 
 
 
