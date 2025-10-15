@@ -844,10 +844,61 @@ margin-left: 60px;
         margin-left: 15px;
         margin-right: 0;
     }
-    .homebtn:hover {
-    background-color: #e1cdaf; 
-    transform: scale(1.05);
+  
+    .homebox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center; /* Pusatkan teks untuk tampilan mobile */
+        gap: 2rem;
+        width: 95%;
+        padding: 40px 20px;
+        margin-top: 20px;
+        min-height: 80vh;
+        height: auto;
     }
+
+    .hometext {
+        order: 1; /* Tampilkan teks terlebih dahulu */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .homeimg {
+        order: 2; /* Tampilkan gambar setelah teks */
+        width: 70%;
+        margin-top: 0; /* HAPUS MARGIN NEGATIF */
+    }
+
+    .homeimg .img {
+        max-width: 100%;
+        width: 250px; /* Sesuaikan ukuran gambar jika perlu */
+    }
+    
+    .hometext h2,  
+    .hometext p,  
+    .homebtn {
+        position: static;  
+        margin: 0; /* Reset margin */
+    }
+
+    .hometext h2 {
+      font-size: 2.5rem;  
+      margin-bottom: 0.5rem; /* Beri sedikit jarak */
+    }
+
+    .hometext p {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem; /* Beri jarak ke tombol */
+    }
+
+    .homebtn {
+        padding: 10px 30px;
+        font-size: 1rem;
+    }
+    
+  
     .img, .star1, .star2 {
         position: static;
         max-width: 80%;
@@ -1016,3 +1067,4 @@ margin-left: 60px;
         margin-top: 0;
     }
 }
+
